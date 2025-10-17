@@ -12,9 +12,11 @@ A escolha pelo BFS foi natural, pois sua característica de explorar o mapa em "
 
 A lógica implementada constrói o mapa e, em seguida, utiliza uma **fila** para visitar sistematicamente todas as casas alcançáveis, camada por camada, até encontrar a porta.
 
-Exemplo de funcionamento:
-
->dadw
+Exemplo de funcionamento
+---
+|Resultado|Entrada|Saída|
+|:-------------------:|:---:|:---:|
+|![](0x0.png)|4 (Quantidade de tubos);<br>1, 3, 2, 4, 3, 5 (Conexões entre os tubos);<br>6 (Posição da porta)| 15 (Quantidade mínima de passos) |
 
 Explore o Código
 ---
